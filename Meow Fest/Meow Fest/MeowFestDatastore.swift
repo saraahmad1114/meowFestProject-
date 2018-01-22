@@ -26,18 +26,8 @@ class MeowFestDatastore{
                 
                 let meowFestObject = MeowFest.init(jsonDictionary: unwrappedSingleDictionary)
                 
-                print("****************************")
-                print(meowFestObject.title)
-                print(meowFestObject.timeStamp)
-                print(meowFestObject.imageUrl)
-                print(meowFestObject.description)
-                print("****************************")
-                
                 self.meowFestArray.append(meowFestObject)
-                
-                print("****************************")
-                print(self.meowFestArray.count)
-                print("****************************")
+
             }
             completion(self.meowFestArray)
         }
