@@ -18,6 +18,7 @@
 		58D192B320167B490028DA5C /* MeowFest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D192B220167B490028DA5C /* MeowFest.swift */; };
 		58D192B520167C750028DA5C /* MeowFestDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D192B420167C750028DA5C /* MeowFestDatastore.swift */; };
 		58D192B720167FDE0028DA5C /* MeowFestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D192B620167FDE0028DA5C /* MeowFestTableViewController.swift */; };
+		58D192B9201692060028DA5C /* MeowFestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D192B8201692060028DA5C /* MeowFestTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		58D192B220167B490028DA5C /* MeowFest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowFest.swift; sourceTree = "<group>"; };
 		58D192B420167C750028DA5C /* MeowFestDatastore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowFestDatastore.swift; sourceTree = "<group>"; };
 		58D192B620167FDE0028DA5C /* MeowFestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowFestTableViewController.swift; sourceTree = "<group>"; };
+		58D192B8201692060028DA5C /* MeowFestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowFestTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		58D1927E201678210028DA5C /* Meow Fest */ = {
 			isa = PBXGroup;
 			children = (
+				58D192B8201692060028DA5C /* MeowFestTableViewCell.swift */,
 				58D192B620167FDE0028DA5C /* MeowFestTableViewController.swift */,
 				58D192B0201678780028DA5C /* MeowFestAPIClient.swift */,
 				58D1927F201678210028DA5C /* AppDelegate.swift */,
@@ -277,6 +280,7 @@
 				58D19280201678210028DA5C /* AppDelegate.swift in Sources */,
 				58D192B320167B490028DA5C /* MeowFest.swift in Sources */,
 				58D19288201678210028DA5C /* Meow_Fest.xcdatamodeld in Sources */,
+				58D192B9201692060028DA5C /* MeowFestTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
