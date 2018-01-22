@@ -26,7 +26,7 @@ class MeowFestAPIClient{
             
             guard let unwrappedData = data else {print("unwrappedData did not unwrap"); return}
             
-            var jsonArray = try? JSONSerialization.jsonObject(with: unwrappedData, options: []) as! Array<Any>
+            let jsonArray = try? JSONSerialization.jsonObject(with: unwrappedData, options: []) as! Array<Any>
             
             guard let unwrappedJsonArray = jsonArray else {print("unwrappedJsonArray did not unwrap"); return}
             
