@@ -17,17 +17,11 @@ class MeowFestDatastore{
     var page = 0
     
     func getMeowFestInformation (page: Int, completion:@escaping ([MeowFest]) -> ()){
-        
         MeowFestAPIClient.getMeowFestInformation(page: page) { (meowFestJsonArray) in
-            
             for singleDictionary in meowFestJsonArray {
-                
                 guard let unwrappedSingleDictionary = singleDictionary as? [String: Any] else{print("unwrappedSingleDictionary did not unwrap"); return}
-                
                 let meowFestObject = MeowFest.init(jsonDictionary: unwrappedSingleDictionary)
-                
                 self.meowFestArray.append(meowFestObject)
-
             }
             completion(self.meowFestArray)
         }
